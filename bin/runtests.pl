@@ -31,28 +31,6 @@ foreach my $ordered ([$source, $destination], [$destination, $source]) {
     print "Output:\n$output\n";
 }
 
-foreach my $source( @end_hosts ) {
-    foreach my $destination( @hosts ) {
-        foreach my $ordered ([$source, $destination], [$destination, $source]) {
-            my ($src, $dst) = @$ordered;
-
-            print "Source: $src\n";
-            print "Destination: $dst\n";
-
-            my $command = $pscheduler . " --source $src --dest $dst ";
-            $command .= $pscheduler_flags;
-
-            print "Command: " . $command . "\n";
-            my $output = `$command`;
-            print "Output:\n$output\n";
-        }
-
-
-    }
-
-}
-
-
 sub host_pairs {
     my ($hosts) = @_;
 
