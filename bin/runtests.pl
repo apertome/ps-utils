@@ -31,7 +31,3 @@ foreach my $ordered ([$source, $destination], [$destination, $source]) {
     print "Output:\n$output\n";
 }
 
-sub host_pairs {
-    my ($hosts) = @_;
-
-}
