@@ -1,0 +1,30 @@
+==GOOD hosts==
+ntps1.pads.ufrj.br
+utcnist2.colorado.edu
+gnomon.cc.columbia.edu
+navobs1.gatech.edu
+navobs1.wustl.edu
+now.okstate.edu
+ntp-s1.cise.ufl.edu
+time-a-g.nist.gov
+time-b-g.nist.gov
+time-c-wwv.nist.gov
+time-d-wwv.nist.gov
+time-a-b.nist.gov
+time-b-b.nist.gov
+time.nist.gov
+utcnist2.colorado.edu
+ntp1.stratum2.ru
+ntp2.stratum2.ru
+ntp3.stratum2.ru
+ntp4.stratum2.ru
+tick.usask.ca
+tock.usask.ca
+ntp.nict.jp
+==BAD hosts==
+timekeeper.isi.edu
+rackety.udel.edu
+mizbeaver.udel.edu
+otc1.psu.edu
+ntp.colby.edu
+utcnist.colorado.edu
